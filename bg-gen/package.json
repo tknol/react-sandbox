@@ -7,8 +7,8 @@
     "lodash": "^4.17.10"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {    
+	"build": "echo \"Building...\" && browserify script.js > bundle.js && live-server"
   },
   "author": "",
   "license": "ISC"

@@ -17109,7 +17109,6 @@
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],2:[function(require,module,exports){
 var _ = require('lodash');
-console.log(_);
 
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
